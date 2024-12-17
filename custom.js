@@ -50,6 +50,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
   } quoteTabs();
+
+  function headerMenu() {
+
+    $('.header').on('hover', '.nav-dd-wrap', fuction() {
+      $('.header_bg').addClass('is-active');
+    }, {
+      $('.header_bg').removeClass('is-active');
+    })
+
+  } headerMenu();
   
 });
 
